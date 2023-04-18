@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+}
+.logo {
+    margin-left: 30px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background-color: #504f4f;
+}
+.box i.fa-car {
+    color: rgb(0, 0, 0); 
+    font-size: 35px;
+  }
+.box i.fa-parking {
+    color: rgb(0, 0, 0); 
+    font-size: 35px; 
+  }
+.box i.fa-motorcycle {
+    color: rgb(0, 0, 0); 
+    font-size: 35px;
+  }
+
+.phone-number {
+    font-style: normal;
+    color: rgb(255, 255, 255);
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    height:70vh!important;
+    background:url(img1.jpg) no-repeat center;
+    background-size: cover;
+}
+.title {
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(255, 238, 0);
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ffffff;
+    color: #fff;
+    text-decoration: none;
+    background: #000000;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+.content {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau {
+    padding: 15vh;
+    background: #1f1d1d;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+
+.box-container .box {
+    width: 11rem;
+    height: 17rem;
+    background-color: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(235, 240, 153);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.box-container .box h3 {
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+}
+.box-container .box p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+.about {
+    background: #171717;
+}
+.price {
+    background: url(estacio.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+}
+.contact {
+    padding-top: 20px;
+    background:black; 
+    height:600px;   
+}
+.my-table {
+    color: rgb(230, 230, 230);
+    background-color: rgb(107, 107, 107);
+  }
+  
+  .my-table td,
+  .my-table th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+
+}
+.about {
+    background: #524f4f;
+}
+  .contenedor {
+    background: #3d3939;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+
+.contenedor .cont {
+    width: 11rem;
+    height: 11rem;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+.contenedor .cont i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(146, 78, 0);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.contenedor .cont h3 {
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+}
+.contenedor .cont p {
+    font-size: 16px;
+    padding: 0 15px;
+}  
+@media screen and (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau {
+        height: 120vh;
+    }
+    .navbar-nav {
+        display: none;
+    }
+}

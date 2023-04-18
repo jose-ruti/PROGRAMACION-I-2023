@@ -1,0 +1,48 @@
+img {
+    width: 1px;
+    height: 1px;
+}
+
+body{
+    background: rgb(101,189,141);
+background: linear-gradient(90deg, rgba(101,189,141,1) 0%, rgba(113,249,129,1) 50%, rgba(32,210,224,1) 100%);
+
+}
+h1{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b4a6a6;
+  }
+
+.letters{
+    font-family: 'Prompt', sans-serif;
+}
