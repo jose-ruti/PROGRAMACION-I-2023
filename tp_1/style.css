@@ -73,7 +73,7 @@ body {
 }
 .header {
     height:70vh!important;
-    background:url(img1.jpg) no-repeat center;
+    background:url(imagen/img1.jpg) no-repeat center;
     background-size: cover;
 }
 .title {
@@ -144,7 +144,7 @@ p {
     line-height: 3rem;
     text-align: center;
     border-radius: 50%;
-    background: rgb(235, 240, 153);
+    background: rgb(240, 248, 92);
     font-size: 2rem;
     margin: 1rem 0;
 }
@@ -160,7 +160,7 @@ p {
     background: #171717;
 }
 .price {
-    background: url(estacio.jpg) no-repeat center;
+    background: url(imagen/estacio.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -172,12 +172,11 @@ p {
     height:600px;   
 }
 .my-table {
+    background-color: rgb(25, 25, 25);
     color: rgb(230, 230, 230);
-    background-color: rgb(107, 107, 107);
   }
-  
-  .my-table td,
-  .my-table th {
+.my-table td,
+.my-table th {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
@@ -187,10 +186,10 @@ p {
     background: #524f4f;
 }
   .contenedor {
-    background: #3d3939;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background: #171717;
     align-items: center;
 } 
 
@@ -215,7 +214,7 @@ p {
 }
 .contenedor .cont h3 {
     font-size: 20px;
-    color: rgb(126, 126, 126);
+    color: rgb(42, 42, 42);
 }
 .contenedor .cont p {
     font-size: 16px;
